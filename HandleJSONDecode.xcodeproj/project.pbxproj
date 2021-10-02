@@ -13,6 +13,8 @@
 		7839253D2708968F00CBEE30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7839253B2708968F00CBEE30 /* Main.storyboard */; };
 		7839253F2708969300CBEE30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7839253E2708969300CBEE30 /* Assets.xcassets */; };
 		783925422708969300CBEE30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783925402708969300CBEE30 /* LaunchScreen.storyboard */; };
+		7839254A2708987D00CBEE30 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783925492708987D00CBEE30 /* NetworkManager.swift */; };
+		7839254C270899A500CBEE30 /* RandomUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7839254B270899A500CBEE30 /* RandomUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7839253E2708969300CBEE30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		783925412708969300CBEE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		783925432708969300CBEE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		783925492708987D00CBEE30 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7839254B270899A500CBEE30 /* RandomUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				783925352708968F00CBEE30 /* AppDelegate.swift */,
 				783925372708968F00CBEE30 /* SceneDelegate.swift */,
 				783925392708968F00CBEE30 /* ViewController.swift */,
+				783925492708987D00CBEE30 /* NetworkManager.swift */,
+				7839254B270899A500CBEE30 /* RandomUser.swift */,
 				7839253B2708968F00CBEE30 /* Main.storyboard */,
 				7839253E2708969300CBEE30 /* Assets.xcassets */,
 				783925402708969300CBEE30 /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7839254A2708987D00CBEE30 /* NetworkManager.swift in Sources */,
 				7839253A2708968F00CBEE30 /* ViewController.swift in Sources */,
 				783925362708968F00CBEE30 /* AppDelegate.swift in Sources */,
 				783925382708968F00CBEE30 /* SceneDelegate.swift in Sources */,
+				7839254C270899A500CBEE30 /* RandomUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +310,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "swiftbook-students.HandleJSONDecode";
+				PRODUCT_BUNDLE_IDENTIFIER = lexemz.HandleJSONDecode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -330,7 +338,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "swiftbook-students.HandleJSONDecode";
+				PRODUCT_BUNDLE_IDENTIFIER = lexemz.HandleJSONDecode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
